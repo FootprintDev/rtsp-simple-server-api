@@ -1,0 +1,33 @@
+{
+    "name": "test",
+    "path": {
+      "source": "record",
+      "sourceProtocol": "automatic",
+      "sourceOnDemand": false,
+      "sourceOnDemandStartTimeout": "10s",
+      "sourceOnDemandCloseAfter": "10s",
+      "sourceRedirect": "",
+      "disablePublisherOverride": false,
+      "fallback": "",
+      "publishUser": "testUser",
+      "publishPass": "testPasswd",
+      "publishIps": [
+        
+      ],
+      "readUser": "",
+      "readPass": "",
+      "readIps": [
+        
+      ],
+      "runOnInit": "",
+      "runOnInitRestart": false,
+      "runOnDemand": "",
+      "runOnDemandRestart": false,
+      "runOnDemandStartTimeout": "10s",
+      "runOnDemandCloseAfter": "10s",
+      "runOnPublish": "",
+      "runOnPublishRestart": false,
+      "runOnRead": "",
+      "runOnReadRestart": false
+    }
+  }

@@ -1,2 +1,2 @@
-# rtsp-simple-server-api
-RTSP Simple Server API
+# RTSP Simple Server API
+Simple REST interface to configure a rtsp-simple-server

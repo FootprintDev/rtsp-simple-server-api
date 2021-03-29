@@ -1,0 +1,57 @@
+authMethods:
+- basic
+- digest
+encryption: false
+listenIP: null
+logDestinations:
+- stdout
+logFile: rtsp-simple-server.log
+logLevel: info
+metrics: false
+metricsPort: 9998
+paths:
+  all:
+    disablePublisherOverride: false
+    fallback: null
+    publishIps: []
+    publishPass: null
+    publishUser: null
+    readIps: []
+    readPass: null
+    readUser: null
+    runOnDemand: null
+    runOnDemandCloseAfter: 10s
+    runOnDemandRestart: false
+    runOnDemandStartTimeout: 10s
+    runOnInit: null
+    runOnInitRestart: false
+    runOnPublish: null
+    runOnPublishRestart: false
+    runOnRead: null
+    runOnReadRestart: false
+    source: record
+    sourceOnDemand: false
+    sourceOnDemandCloseAfter: 10s
+    sourceOnDemandStartTimeout: 10s
+    sourceProtocol: automatic
+    sourceRedirect: null
+pprof: false
+pprofPort: 9999
+protocols:
+- udp
+- tcp
+readBufferCount: 512
+readBufferSize: 2048
+readTimeout: 10s
+rtcpPort: 8001
+rtmpDisable: false
+rtmpPort: 1935
+rtpPort: 8000
+rtspDisable: false
+rtspPort: 8554
+rtspsPort: 8555
+runOnConnect: null
+runOnConnectRestart: false
+serverCert: server.crt
+serverKey: server.key
+writeTimeout: 10s
